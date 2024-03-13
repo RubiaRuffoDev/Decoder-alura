@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>Decoder Alura</title>
+</head>
+
+<body>
+    <main>
+        <img class="logo" src="./assets/img/logo.png" alt="Logo da Alura">
+        <section>
+            <textarea class="text-input" placeholder="Digite seu texto"></textarea>
+            <div class="informacao" >
+                <img src="./assets/img/!.png"> 
+                <p>Apenas letras minúsculas e sem acento</p>
+            </div>
+                <div>
+                    <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+                    <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+                </div>
+        </section>
+
+        <section class="aparecer">
+            <div>
+                <textarea  class="mensagem" id="texto"></textarea>
+                <div>
+                <button class="btn-copiar" type="button" onclick="btnCopiar()">Copiar</button>
+            </div>
+            </div>
+        </section>
+    </main>
+<!--<footer class="rodape">
+        Desenvolvido por Rúbia Ruffo 2024
+    </footer>-->
+    <script src="script.js"></script>
+</body>
+
+</html>
